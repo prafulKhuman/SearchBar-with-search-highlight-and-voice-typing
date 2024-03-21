@@ -120,6 +120,7 @@ function App() {
 
           <div class="form">
             <i class="fa fa-search"></i>
+
             <input type="text" value={searchText} class="form-control form-input" placeholder="Search Indian State..." onChange={(e) => setSearchText(e.target.value.toLowerCase())} />
             <span className="left-pan" onClick={handleVoiceInput}><i className={`fa fa-${isListening ? 'stop' : 'microphone'}`}></i></span>
           </div>
